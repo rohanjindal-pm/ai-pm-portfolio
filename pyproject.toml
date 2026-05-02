@@ -1,0 +1,14 @@
+[project]
+name = "ai-pm-portfolio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.97.0",
+    "openai>=2.33.0",
+    "pandas>=3.0.2",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.57.0",
+    "tenacity>=9.1.4",
+]
