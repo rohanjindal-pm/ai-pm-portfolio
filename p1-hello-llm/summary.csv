@@ -1,0 +1,4 @@
+model,accuracy,avg_cost_usd,cost_per_1k,p50_latency_ms,p95_latency_ms,keyword_pass,refusal_pass,json_pass
+claude-haiku-4-5-20251001,70.0,0.0006486,0.6486,1932,3336,85.0,85.0,85.0
+gpt-4o,85.0,0.0008045,0.8045,1141,2666,90.0,95.0,95.0
+gpt-4o-mini,85.0,3.295e-05,0.033,1263,2983,90.0,100.0,95.0

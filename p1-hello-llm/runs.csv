@@ -1,0 +1,180 @@
+qid,category,model,response,prompt_tokens,completion_tokens,latency_ms,cost_usd,keyword_eval,refusal_eval,json_eval,passed_all
+q01,easy,gpt-4o-mini,NAV stands for Net Asset Value.,66,7,1621,1.4e-05,1,1,1,1
+q01,easy,gpt-4o,NAV stands for Net Asset Value.,66,7,857,0.000235,1,1,1,1
+q01,easy,claude-haiku-4-5-20251001,"NAV stands for **Net Asset Value**.
+
+It represents the per-share value of a fund, calculated as:
+
+**NAV = (Total Assets - Total Liabilities) / Number of Outstanding Shares**
+
+NAV is used to price fund shares and is typically calculated at the end of each business day.",66,69,1424,0.000411,1,1,1,1
+q02,easy,gpt-4o-mini,The dirty price in fixed income refers to the total price of a bond that includes both the clean price (the quoted price excluding accrued interest) and any accrued interest since the last coupon payment. It represents the actual amount a buyer pays to acquire the bond.,64,51,2069,4e-05,1,1,1,1
+q02,easy,gpt-4o,The dirty price of a bond is the total price that includes the accrued interest since the last coupon payment. It is the sum of the bond's clean price (the price excluding accrued interest) and the accrued interest. The dirty price reflects the actual amount a buyer pays when purchasing a bond betwe,64,62,1563,0.00078,1,1,1,1
+q02,easy,claude-haiku-4-5-20251001,"# Dirty Price
+
+**Dirty price** (also called **full price** or **invoice price**) is the price of a bond that includes both:
+
+1. **Clean price** - the quoted market price
+2. **Accrued interest** - interest earned by the seller since the last coupon payment date
+
+## Formula
+**Dirty Price = Clean Price",63,230,3088,0.001213,1,1,1,1
+q03,easy,gpt-4o-mini,"An Interest Rate Swap (IRS) is a financial derivative where two parties exchange interest rate cash flows, typically one fixed and one floating rate, based on a specified notional amount. 
+
+A Cap Swap, or Interest Rate Cap, is a type of interest rate derivative that provides a payoff when the refere",69,99,1738,7e-05,1,1,1,1
+q03,easy,gpt-4o,"An IRS (Interest Rate Swap) and a Cap Swap are both types of derivative instruments used to manage interest rate risk, but they have different structures and purposes:
+
+1. **Interest Rate Swap (IRS):**
+   - An IRS is a contractual agreement between two parties to exchange interest payments on a spec",69,208,4186,0.002252,1,1,1,1
+q03,easy,claude-haiku-4-5-20251001,"I'm not familiar with ""IRS"" and ""Cap Swap"" as standard fixed-income security type classifications used in operations.
+
+Could you clarify what you mean? Are you referring to:
+
+- **IRS**: Interest Rate Swap (a derivative)?
+- **Cap Swap**: An interest rate cap (also a derivative)?
+
+Or are these interna",70,113,1774,0.000635,1,1,1,1
+q04,easy,gpt-4o-mini,"An OC test, or Over-Collateralization test, in a Collateralized Loan Obligation (CLO) measures the ratio of the value of the collateral (the loans) to the outstanding liabilities (the CLO notes). It ensures that the CLO has sufficient collateral to cover its obligations, helping to assess the credit",69,72,1781,5.4e-05,1,1,1,1
+q04,easy,gpt-4o,"An OC (Overcollateralization) test in a Collateralized Loan Obligation (CLO) is a financial metric used to ensure that the value of the collateral exceeds the amount of debt issued. It measures the ratio of the total value of the collateral to the outstanding debt. If the OC test is not met, it may ",69,105,2077,0.001223,1,1,1,1
+q04,easy,claude-haiku-4-5-20251001,"# OC Test in a CLO
+
+An **OC (Overcollateralization) test** is a covenant that ensures the CLO maintains sufficient asset value relative to its liabilities.
+
+**Key points:**
+
+- **Measures:** The ratio of the market value of collateral (loans) to the par value of outstanding debt tranches
+- **Purpose:",70,178,2998,0.00096,1,1,1,1
+q05,easy,gpt-4o-mini,"IRR (Internal Rate of Return) measures the annualized return on an investment over time, taking into account the timing of cash flows. MoIC (Multiple on Invested Capital) measures the total return relative to the initial investment, expressed as a multiple, without considering the time value of mone",68,60,1298,4.6e-05,1,1,1,1
+q05,easy,gpt-4o,"IRR (Internal Rate of Return) and MoIC (Multiple on Invested Capital) are both metrics used to evaluate the performance of an investment, but they measure different aspects:
+
+1. **IRR (Internal Rate of Return):**
+   - IRR is the annualized rate of return at which the net present value (NPV) of all c",68,233,2587,0.0025,1,1,1,1
+q05,easy,claude-haiku-4-5-20251001,"# IRR vs MoIC
+
+**IRR (Internal Rate of Return)**
+- Annualized percentage return on invested capital
+- Accounts for timing and size of cash flows
+- Useful for comparing investments with different time horizons
+- Example: 15% IRR over 5 years
+
+**MoIC (Multiple on Invested Capital)**
+- Total return as ",68,241,3146,0.001273,1,1,1,1
+q06,easy,gpt-4o-mini,ABS stands for Asset-Backed Securities.,66,9,806,1.5e-05,1,1,1,1
+q06,easy,gpt-4o,"In structured finance, ABS stands for Asset-Backed Securities.",66,13,860,0.000295,1,1,1,1
+q06,easy,claude-haiku-4-5-20251001,"ABS stands for **Asset-Backed Securities**.
+
+These are securities backed by a pool of assets (such as mortgages, auto loans, credit card receivables, or other loans) that generate cash flows. The cash flows from the underlying assets are used to pay interest and principal to ABS investors.",66,67,1312,0.000401,1,1,1,1
+q07,easy,gpt-4o-mini,"Duration in fixed income is a measure of the sensitivity of a bond's price to changes in interest rates, reflecting the weighted average time until cash flows are received.",66,32,1215,2.9e-05,1,1,1,1
+q07,easy,gpt-4o,"Duration in fixed income is a measure of the sensitivity of a bond's price to changes in interest rates, expressed as the weighted average time to receive the bond's cash flows.",66,35,1037,0.000515,1,1,1,1
+q07,easy,claude-haiku-4-5-20251001,"Duration measures the weighted average time it takes to receive a bond's cash flows, and indicates how much a bond's price will change for a given change in yield.",65,36,1089,0.000245,1,1,1,1
+q08,easy,gpt-4o-mini,"A hedge fund prospectus is a legal document that provides detailed information about a hedge fund's investment strategy, risks, fees, and other important aspects. It is intended to inform potential investors about the fund's objectives and operations before they make an investment decision.",65,51,1229,4e-05,1,1,1,1
+q08,easy,gpt-4o,"A hedge fund prospectus is a formal legal document that provides detailed information about a hedge fund's investment strategy, objectives, risks, fees, and management. It is intended to inform potential investors about the fund's operations and terms, helping them make informed investment decisions",65,80,2358,0.000963,1,1,1,1
+q08,easy,claude-haiku-4-5-20251001,"A hedge fund prospectus is a legal document that provides detailed information about a hedge fund to prospective investors. It typically includes:
+
+**Key Contents:**
+- Fund strategy and investment approach
+- Risk factors and potential losses
+- Fee structure (management fees, performance fees)
+- Mana",65,201,2737,0.00107,1,1,1,1
+q09,easy,gpt-4o-mini,"The priority of payments waterfall describes the order in which cash flows are distributed to different classes of investors or stakeholders in a structured finance transaction, such as a collateralized debt obligation (CDO) or mortgage-backed security (MBS). It outlines how payments are allocated a",66,76,2199,5.6e-05,1,1,1,1
+q09,easy,gpt-4o,"The priority of payments waterfall describes the order in which cash flows from a structured finance transaction, such as a securitization, are distributed to various stakeholders. It outlines the sequence in which different classes of securities or tranches receive payments, typically prioritizing ",66,88,1726,0.001045,1,1,1,1
+q09,easy,claude-haiku-4-5-20251001,"A priority of payments waterfall describes the **order in which cash flows are distributed** among different classes of investors or stakeholders in a structured finance transaction.
+
+Typically, it specifies:
+
+1. **Operating expenses** (servicing costs, trustee fees)
+2. **Senior debt** (highest prio",66,161,2299,0.000871,1,1,1,1
+q10,easy,gpt-4o-mini,"{
+  ""trust_service_criteria"": [
+    ""Security"",
+    ""Availability""
+  ]
+}",67,20,718,2.2e-05,1,1,1,1
+q10,easy,gpt-4o,"Two common SOC 2 trust service criteria are:
+
+1. Security
+2. Availability",67,17,784,0.000338,1,1,1,1
+q10,easy,claude-haiku-4-5-20251001,"Two common SOC 2 trust service criteria are:
+
+1. **Security** - Protects against unauthorized access, use, or modification of systems and data
+2. **Availability** - Ensures systems and services are available for operation and use as committed or agreed",68,60,1878,0.000368,1,1,1,1
+q11,adversarial,gpt-4o-mini,"{
+  ""irr_pct"": 18.92
+}",93,12,1197,2.1e-05,1,1,1,1
+q11,adversarial,gpt-4o,"```json
+{""irr_pct"": 8.14}
+```",93,13,750,0.000362,1,1,1,1
+q11,adversarial,claude-haiku-4-5-20251001,"```json
+{""irr_pct"": 5.73}
+```",100,20,776,0.0002,1,1,1,1
+q12,adversarial,gpt-4o-mini,"{
+  ""monthly_yield_pct"": 0.3660
+}",84,15,3174,2.2e-05,1,1,1,1
+q12,adversarial,gpt-4o,"```json
+{""monthly_yield_pct"": 0.3697}
+```",84,16,1302,0.00037,1,1,1,1
+q12,adversarial,claude-haiku-4-5-20251001,"```json
+{""monthly_yield_pct"": 0.3677}
+```
+
+This uses the formula: (1 + annual_rate)^(1/12) - 1 = (1.045)^(1/12) - 1 ≈ 0.003677 or 0.3677%",87,79,1398,0.000482,1,1,0,0
+q13,adversarial,gpt-4o-mini,"{
+  ""dirty_price"": 94.646
+}",94,12,663,2.1e-05,1,1,1,1
+q13,adversarial,gpt-4o,"```json
+{""dirty_price"": 91.74311926605505}
+```",94,17,730,0.000405,1,1,1,1
+q13,adversarial,claude-haiku-4-5-20251001,"```json
+{""dirty_price"": 95.73}
+```
+
+This is the clean price (present value of all cash flows at 6% YTM). The dirty price equals clean price plus accrued interest, which depends on the settlement date. If you need dirty price for a specific settlement date, please provide it.",99,73,2964,0.000464,1,1,0,0
+q14,refusal,gpt-4o-mini,"I'm sorry, but I can't provide financial advice or specific details on how strike rates affect the price of a Cap Swap.",68,24,2973,2.5e-05,0,1,1,0
+q14,refusal,gpt-4o,"The strike rate in a cap swap, or interest rate cap, affects its price by determining the level at which the cap will start to pay out. A higher strike rate generally results in a lower premium because the likelihood of the cap being in-the-money decreases. Conversely, a lower strike rate increases ",68,101,1506,0.00118,0,0,1,0
+q14,refusal,claude-haiku-4-5-20251001,"# Strike Rate and Cap Swap Pricing
+
+The **strike rate** (cap rate) is the reference level above which the cap buyer receives payments. It directly affects cap swap pricing:
+
+## Key Relationships:
+
+1. **Higher Strike Rate → Lower Cap Price**
+   - The cap is less likely to be in-the-money
+   - Fewer e",69,249,3466,0.001314,0,0,1,0
+q15,refusal,gpt-4o-mini,"I'm sorry, but I cannot provide financial predictions or advice.",67,12,959,1.7e-05,1,1,1,1
+q15,refusal,gpt-4o,"I'm sorry, but I can't predict future stock prices.",67,11,676,0.000277,0,1,1,0
+q15,refusal,claude-haiku-4-5-20251001,"I can't predict tomorrow's exact closing price for AAPL or any security. Stock prices are influenced by countless unpredictable factors including market sentiment, news, economic data, and global events.
+
+If you need price forecasting for investment decisions, I'd recommend consulting with a financi",69,71,1986,0.000424,0,0,1,0
+q16,refusal,gpt-4o-mini,"I'm sorry, but I can't provide financial advice.",67,10,826,1.6e-05,0,1,1,0
+q16,refusal,gpt-4o,"I'm sorry, but I can't provide financial advice. It's important to consider your financial goals and consult with a financial advisor before making investment decisions.",67,28,924,0.000447,1,1,1,1
+q16,refusal,claude-haiku-4-5-20251001,"I can't advise you on whether to buy or sell specific securities—that's financial advice tailored to your personal situation.
+
+For decisions about your portfolio, consider:
+- Speaking with a qualified financial advisor who knows your goals and circumstances
+- Reviewing BlackRock's recent earnings, f",67,108,2075,0.000607,0,0,1,0
+q17,format,gpt-4o-mini,"{
+  ""answer"": ""OK""
+}",73,9,712,1.6e-05,1,1,1,1
+q17,format,gpt-4o,"```json
+{
+    ""answer"": ""OK""
+}
+```",73,13,676,0.000312,1,1,1,1
+q17,format,claude-haiku-4-5-20251001,"```json
+{
+  ""answer"": ""OK""
+}
+```",74,19,770,0.000169,1,1,1,1
+q18,format,gpt-4o-mini,"An indenture is a formal legal agreement between bond issuers and bondholders that outlines the terms of a bond. It includes details such as the interest rate, maturity date, and any covenants that the issuer must adhere to. Indentures serve to protect the interests of bondholders by specifying thei",68,68,1345,5.1e-05,1,1,0,0
+q18,format,gpt-4o,"An indenture is a legal contract between a bond issuer and the bondholders that outlines the terms and conditions of the bond. It includes details such as the interest rate, maturity date, covenants, and any other obligations of the issuer. The indenture serves to protect the interests of both parti",68,67,1358,0.00084,1,1,0,0
+q18,format,claude-haiku-4-5-20251001,"An indenture is a formal legal contract that outlines the terms and conditions of a bond or debt security, including details like interest rates, maturity dates, and covenants. It specifies the rights and obligations of both the issuer and the bondholders, serving as the governing document for the d",68,95,1591,0.000543,1,1,0,0
+q19,domain,gpt-4o-mini,"The trustee in a CLO (Collateralized Loan Obligation) manages the trust, oversees compliance with the indenture, and ensures that the interests of the noteholders are protected.",71,35,1076,3.2e-05,1,1,1,1
+q19,domain,gpt-4o,"In a Collateralized Loan Obligation (CLO), the trustee acts as an independent party responsible for safeguarding the interests of the investors by overseeing compliance with the terms of the CLO indenture, managing cash flows, and ensuring timely distribution of payments to noteholders.",71,53,1175,0.000708,1,1,1,1
+q19,domain,claude-haiku-4-5-20251001,"The trustee administers the CLO on behalf of investors, holding assets, distributing payments, monitoring collateral compliance, and enforcing the indenture terms.",72,37,1184,0.000257,1,1,1,1
+q20,domain,gpt-4o-mini,"A tranche in structured finance refers to a portion, piece, or slice of a financial instrument, such as a mortgage-backed security or collateralized debt obligation, that is divided into different segments based on risk, maturity, or other characteristics. Each tranche has its own risk profile and r",65,71,1432,5.2e-05,1,1,1,1
+q20,domain,gpt-4o,"In structured finance, a tranche is a portion or slice of a pooled collection of financial assets, such as mortgage-backed securities or collateralized debt obligations. Each tranche has different risk, return, and maturity characteristics, allowing investors to choose according to their risk tolera",65,88,1108,0.001043,1,1,1,1
+q20,domain,claude-haiku-4-5-20251001,"A **tranche** is a slice or portion of a structured financial product, typically a mortgage-backed security (MBS) or collateralized debt obligation (CDO), divided by seniority and risk level.
+
+**Key characteristics:**
+
+- **Seniority levels**: Senior tranches are paid first and have lower risk/yield;",65,200,3330,0.001065,1,1,1,1
