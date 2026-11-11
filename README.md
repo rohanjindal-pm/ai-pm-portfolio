@@ -5,7 +5,7 @@ I'm a B2B fintech PM (currently at IVP, working on PriceMaster — a hedge fund 
 
 | # | Project | Status | What it proves | Live demo |
 |---:|---|:---:|---|:---:|
-| **P1** | [Hello, LLM — eval-instrumented script](p1-hello-llm/) | 🚧 In progress | Multi-model comparison, offline eval discipline | — |
+| **P1** | [Hello, LLM — eval-instrumented script](p1-hello-llm/), now packaged as [bondbench](https://github.com/rohanjindal-pm/bondbench) | ✅ Shipped | Multi-model comparison, offline eval discipline | — |
 | **P2** | [PriceMaster FAQ Bot v0 (prompt-only)](p2-faq-bot/) | ⏳ Planned | Refusal correctness, hallucination measurement | 🌐 (Streamlit) |
 | **P3** | [Fund Document Q&A — RAG over CLO indentures](p3-fund-qa/) | ⏳ Planned | RAG, citations, faithfulness scoring | 🌐 (Streamlit) |
 | **P4** | [Markit Data Challenge Triage Bot](p4-markit-triage/) | ⏳ Planned | Structured outputs, classification F1 | 🌐 (Streamlit) |
